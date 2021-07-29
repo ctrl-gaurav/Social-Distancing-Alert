@@ -86,10 +86,22 @@ pip install -r requirements.txt
 5. [Download]() Yolo Weights 
 6. Move Yolo Weights to yolo weights and coco classes folder
 7. If u don't have gpu enabled pc set USE_GPU = False in config.py
-8. Run main.py 
+8. Run main.py for realtime detections
 ```sh
 python main.py
 ```
+9. If You want to process a particular video not realtime
+10. Then move that video in current directory and rename it as test.mp4
+11. Run main.py
+```sh
+python main.py --input test.mp4
+```
+12. If you want to save your results in a video :
+13. Run main.py
+```sh
+python main.py --input test.mp4 --output output.mp4
+```
+14. Your video will be saved in current directory after processing
 
 
 ## Product Screenshots
