@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/ctrl-gaurav/Social-Distancing-Alert">
-    <img src="readme/logo.jpg" alt="Logo" width="490" height="327">
+    <img src="readme/logo.jpg" alt="Logo" width="392" height="262">
   </a>
 
   <h3 align="center">Social Distancing Alert</h3>
@@ -83,7 +83,7 @@ git clone https://github.com/ctrl-gaurav/Social-Distancing-Alert.git
 ```sh
 pip install -r requirements.txt
 ```
-5. [Download]() Yolo Weights 
+5. [Download](https://drive.google.com/file/d/1OHArSzYLJLxTkTlgjeZFbiSS3y_xd1Kw/view?usp=sharing) Yolo Weights 
 6. Move Yolo Weights to yolo weights and coco classes folder
 7. If u don't have gpu enabled pc set USE_GPU = False in config.py
 8. Run main.py for realtime detections
